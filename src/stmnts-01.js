@@ -13,6 +13,7 @@
  * @returns {integer} - the next integer as if you were counting up by 1
  */
 function nextInteger(int) {
+  // eslint-disable-next-line no-plusplus, no-param-reassign
   return ++int;
 }
 /**
