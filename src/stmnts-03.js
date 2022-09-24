@@ -16,7 +16,7 @@
  */
 
 function rectanglePerimeter(width, height) {
-  const b = Math.round((2 * width + 2 * height), 2);
+  const b = (2 * width + 2 * height).toFixed(2);
   return b;
 }
 
@@ -28,7 +28,7 @@ function rectanglePerimeter(width, height) {
  *
  */
 function rectangleArea(width, height) {
-  const c = Math.round((width * height), 2);
+  const c = (width * height).toFixed(2);
   return c;
 }
 
